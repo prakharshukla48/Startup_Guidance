@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic")!important;
+
+body {
+  background-color: #2e2842;
+}
+/* 2e2842 */
+a {
+  font-style: none;
+  color: black !important;
+}
+
+a:hover {
+  color: grey !important;
+}
+
+h1.title {
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  z-index: 3;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.options {
+  position: fixed;
+  top: 25%;
+  left: 15%;
+  right: 15%;
+  bottom: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  width: 770px;
+  height: 350px;
+  margin: 10px;
+  transition: width 2s;
+}
+
+h2.card-text {
+  margin-right: 10px;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  color: grey;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 5px solid white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 145% !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.sub_vertical {
+  height: 100px;
+}
+
+select {
+  margin: 35px 0px;
+}
+
+.submit {
+  position: relative;
+  left: 45%;
+  width: 75px;
+  height: 50px;
+}
+
+.result {
+  color: #fff;
+  font-weight: bold;
+  font-family: monospace;
+}

@@ -1,0 +1,29 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/join_us.css' %}" />
+</head>
+<form action="to_predict" method="post">
+    {% csrf_token %}
+    <label for="sector">Sector</label>
+    <select name="sector">
+      <option value="Technology">Technology</option>
+      <option value="Consumer Internet">Consumer Internet</option>
+      <option value="eCommerce">eCommerce</option>
+      <option value="Healthcare">Healthcare</option>
+      <option value="Logistics">Logistics</option>
+      <option value="Food & Beverages">Food & Beverages</option>
+      <option value="Healthcare">Healthcare</option>
+      <option value="Finance">Finance</option>
+      <option value="Education">Education</option>
+    </select>
+    <label for="sub_vertical">Sub Vertical</label>
+    <input type="text" class="name sub_vertical" name="sub_vertical">
+    <select name="funding">
+      <option value="Private Equity">Private Equity</option>
+      <option value="Seed Funding">Seed Funding</option>
+      <option value="Debt Funding">Debt Funding</option>
+    </select>
+    <input type="submit" class="submit" value="Submit">
+</form>
+</html>

@@ -1,0 +1,5 @@
+client id
+326328762342-aoe9b0lpuq2jcm83u081kr4gs4f565le.apps.googleusercontent.com
+
+secret key
+  W3EpPZlJQGNgG-FH2XzfTgBC 

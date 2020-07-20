@@ -1,0 +1,11 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/join_us.css' %}" />
+</head>
+<form action="find_unique" class="our_form" method="POST">{% csrf_token %}
+  <label for="idea">Enter in brief about your idea</label>
+  <input type="text" class="sub_vertical" name="idea">
+  <input type="submit" class="submit" name="Submit" value="submit">
+</form>
+</html>
